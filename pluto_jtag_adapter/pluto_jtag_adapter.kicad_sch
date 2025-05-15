@@ -3337,7 +3337,7 @@
 				)
 			)
 		)
-		(symbol "Logic_LevelTranslator:TXB0102DCT"
+		(symbol "Logic_LevelTranslator:TXB0102DCU"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3349,7 +3349,7 @@
 					)
 				)
 			)
-			(property "Value" "TXB0102DCT"
+			(property "Value" "TXB0102DCU"
 				(at 3.81 11.43 0)
 				(effects
 					(font
@@ -3358,7 +3358,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+			(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 				(at 0 -13.97 0)
 				(effects
 					(font
@@ -3376,7 +3376,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "2-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, TSSOP-8"
+			(property "Description" "2-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, VSSOP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3394,7 +3394,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TSSOP*P0.65mm*"
+			(property "ki_fp_filters" "VSSOP*2.3x2mm*P0.5mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3403,7 +3403,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TXB0102DCT_0_1"
+			(symbol "TXB0102DCU_0_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 7.62 -10.16)
@@ -3484,7 +3484,7 @@
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(polyline
@@ -3560,7 +3560,7 @@
 					)
 				)
 			)
-			(symbol "TXB0102DCT_1_1"
+			(symbol "TXB0102DCU_1_1"
 				(pin bidirectional line
 					(at 10.16 -2.54 180)
 					(length 2.54)
@@ -5784,12 +5784,6 @@
 		(uuid "0e55135b-da0a-4de6-b384-a0e44db43a95")
 	)
 	(junction
-		(at 218.44 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fe05116-d64f-46ac-9468-af6b9e6e7300")
-	)
-	(junction
 		(at 135.89 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5824,6 +5818,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2321f2b0-31ee-4f03-ad4b-9d1e0618d9ce")
+	)
+	(junction
+		(at 218.44 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2483b131-26c8-4d3c-b5d8-97d269ccd185")
 	)
 	(junction
 		(at 125.73 185.42)
@@ -9325,94 +9325,6 @@
 			(project "pluto_jtag_adapter"
 				(path "/3be8ddee-85ba-421c-a851-ede1499a4287"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Logic_LevelTranslator:TXB0102DCT")
-		(at 208.28 129.54 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b411bec-0363-4572-b1dc-1b18df2c42c5")
-		(property "Reference" "U5"
-			(at 197.358 141.224 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TXB0102DCT"
-			(at 194.818 143.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
-			(at 208.28 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0102.pdf"
-			(at 208.28 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, TSSOP-8"
-			(at 208.28 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "caa2d933-7f82-4e1f-8ec0-143eac3ad6d9")
-		)
-		(pin "1"
-			(uuid "7a7dc2d7-6a45-4aa3-b08d-9067e5caa4f7")
-		)
-		(pin "2"
-			(uuid "6e75863f-f8aa-4091-bbb2-bc0a8661af52")
-		)
-		(pin "7"
-			(uuid "cb4a4315-780f-4382-b7e5-fbf5894cb34a")
-		)
-		(pin "8"
-			(uuid "31dd6875-a423-42f7-9d28-ee0a3694ab42")
-		)
-		(pin "3"
-			(uuid "2d8ff6ca-69ec-454c-8bab-4db91c3496eb")
-		)
-		(pin "4"
-			(uuid "b137f4dc-1bc3-4860-9bdf-b91788b08eac")
-		)
-		(pin "6"
-			(uuid "ce2183a9-85b1-42da-8fd7-3c893d4c9b59")
-		)
-		(instances
-			(project ""
-				(path "/3be8ddee-85ba-421c-a851-ede1499a4287"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -14725,6 +14637,94 @@
 			(project "pluto_jtag_adapter"
 				(path "/3be8ddee-85ba-421c-a851-ede1499a4287"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Logic_LevelTranslator:TXB0102DCU")
+		(at 208.28 129.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bce58f27-073c-499d-b6df-e36c12659e3d")
+		(property "Reference" "U9"
+			(at 203.2 141.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TXB0102DCU"
+			(at 205.994 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
+			(at 208.28 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0102.pdf"
+			(at 208.28 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, VSSOP-8"
+			(at 208.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "429fa59b-cd4c-4746-a254-95b874238d36")
+		)
+		(pin "1"
+			(uuid "54f02580-711d-46d0-b28f-37ac3d97073e")
+		)
+		(pin "8"
+			(uuid "50566340-6143-4b6b-8ee5-b789b00a8121")
+		)
+		(pin "2"
+			(uuid "e3a1642c-630c-4964-8cd7-d194a3b5757b")
+		)
+		(pin "6"
+			(uuid "4b21a7cc-e5ce-4a23-8bcf-4fb32ec425c9")
+		)
+		(pin "7"
+			(uuid "a64d5970-6a6e-406c-9da9-dd8747d59a7d")
+		)
+		(pin "4"
+			(uuid "4412e99f-4100-4d03-8c1e-ae23863b55e5")
+		)
+		(pin "5"
+			(uuid "6bf408fc-cf5d-4cc6-b740-0d44751d16cd")
+		)
+		(instances
+			(project ""
+				(path "/3be8ddee-85ba-421c-a851-ede1499a4287"
+					(reference "U9")
 					(unit 1)
 				)
 			)
