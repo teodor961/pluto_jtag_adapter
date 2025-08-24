@@ -7,5 +7,7 @@ JTAG programmer for the PLUTOSDR evaluation kit from ADI.
 - Integrated FT2232 USB to sync serial controller, to serve as a JTAG + UART host (Still work in progress)
 
 ## Known issues:
-v1.0.0 - VREGOUT and VREGIN should be floating but connected to 1.8V
-         VPHY and VPLL connected to 1.8V supply, should be connected to 3.3V through ferrite bead
+### v1.0.0 
+- VREGOUT and VREGIN should be floating but connected to 1.8V
+- VPHY and VPLL connected to 1.8V supply, should be connected to 3.3V through ferrite bead
+- FT2232 chip not working due to previously stated issues
