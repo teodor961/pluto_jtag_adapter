@@ -1,0 +1,12 @@
+*cache*
+*-backup*
+*.bak
+*.lck
+*.pdf
+*.zip
+*.xlsx
+pluto_jtag_adapter/pluto_jtag_adapter-backups
+*.kicad_sch-bak
+*.xml
+*.jpg
+*.png
