@@ -183,6 +183,8 @@
 	(net 78 "Net-(U9-B1)")
 	(net 79 "Net-(U9-OE)")
 	(net 80 "Net-(U9-A2)")
+	(net 81 "unconnected-(U1-VREGOUT-Pad49)")
+	(net 82 "unconnected-(U1-VREGIN-Pad50)")
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "00af2575-d07c-430f-aec3-c58e82e5f7f2")
@@ -1748,7 +1750,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/25a45ccc-e5d3-401d-8583-4c71eca7e1e0")
 		(sheetname "Root")
 		(sheetfile "pluto_jtag_adapter.kicad_sch")
 		(attr smd)
@@ -8964,7 +8965,7 @@
 			(size 0.3 1.55)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 1 "+1V8")
+			(net 81 "unconnected-(U1-VREGOUT-Pad49)")
 			(pinfunction "VREGOUT")
 			(pintype "power_out")
 			(uuid "a194372e-58bb-4276-af0c-d3cf7019fd2c")
@@ -8974,7 +8975,7 @@
 			(size 0.3 1.55)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 1 "+1V8")
+			(net 82 "unconnected-(U1-VREGIN-Pad50)")
 			(pinfunction "VREGIN")
 			(pintype "power_in")
 			(uuid "c03818e7-fb09-4cb0-a4af-681a939d2a6c")
@@ -11774,7 +11775,7 @@
 				)
 			)
 		)
-		(property "Value" "12K"
+		(property "Value" "1K"
 			(at -2.25 0.25 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15764,14 +15765,6 @@
 		(uuid "01863352-843d-4dc6-9027-379ce59c228c")
 	)
 	(segment
-		(start 124.325 86.325)
-		(end 124.325 85.575)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "05cadafb-e060-4f8b-a8f1-54dd3034470a")
-	)
-	(segment
 		(start 105.72 97.885)
 		(end 105.775 97.94)
 		(width 0.2)
@@ -15802,14 +15795,6 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "1c2acef4-40c3-4f1e-8563-1cc01fcb4dbd")
-	)
-	(segment
-		(start 123.825 85.575)
-		(end 124.325 85.575)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "21d73116-244b-497c-95f4-fabcbf61d1b0")
 	)
 	(segment
 		(start 115.674999 93)
@@ -16082,14 +16067,6 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "c65dff9e-4f2a-4b44-99f8-9bc9547f3f28")
-	)
-	(segment
-		(start 124.95 86.95)
-		(end 124.325 86.325)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "ca7536f4-1c70-43e6-b801-00a058fdf396")
 	)
 	(segment
 		(start 111.9 92.6)
